@@ -12,7 +12,7 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 <p align="center"><a href="https://infernojs.org/" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/promo.jpg"></p>
 
-[![Node](https://img.shields.io/badge/node--js-14.71LTS%3C-green??style=for-the-badge&?logo=data:assets/nodejs-new-black-1.png;base64)](https://nodejs.org/en/)
+[![Node](https://img.shields.io/badge/node--js-14.71LTS%3C-green?style=for-the-badge&?logo=data:assets/nodejs-new-black-1.png;base64)](https://nodejs.org/en/)
 [![Electron](https://img.shields.io/badge/Electron-13.1%3C-blue?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
 [![MIT](https://img.shields.io/npm/l/inferno.svg?style=flat-square)](https://github.com/infernojs/inferno/blob/master/LICENSE.md)
 [![NPM](https://img.shields.io/npm/v/inferno.svg?style=flat-square)](https://www.npmjs.com/package/inferno)
