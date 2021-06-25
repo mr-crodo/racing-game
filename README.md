@@ -120,13 +120,13 @@ electron-packager .
 
 ## Game screenshots
 
-<p align="center"><a href="#" target="_blank"><img width="200px" height="200px" alt="Racing Game" title="Racing Game" src="./assets/1.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/1.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="200px" height="200px" alt="Racing Game" title="Racing Game" src="./assets/2.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/2.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="200px" height="200px" alt="Racing Game" title="Racing Game" src="./assets/2-1.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/2-1.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="200px" height="200px" alt="Racing Game" title="Racing Game" src="./assets/3.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/3.png"></p>
 
 
 
@@ -135,14 +135,7 @@ electron-packager .
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/inferno#sponsor)]
 
-<a href="https://opencollective.com/inferno/sponsor/0/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/1/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/2/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/3/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/4/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/5/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/6/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/7/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/8/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/inferno/sponsor/9/website" target="_blank"><img src="https://opencollective.com/inferno/sponsor/9/avatar.svg"></a>
-
+<a href="#" target="_blank"><img src="./assets/home.jpg"></a>
+<a href="https://www.jetbrains.com/ru-ru/" target="_blank"><img src="./assets/jb.jpg"></a>
+<a href="#" target="_blank"><img src="./assets/k1.png"></a>
+<a href="https://www.dell.ru/" target="_blank"><img src="./assets/not.jpg"></a>
