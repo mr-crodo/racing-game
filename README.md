@@ -35,20 +35,10 @@ The main goal of the project was to make a game out of html, css and native js t
 [![Build Status](https://saucelabs.com/browser-matrix/Havunen.svg)](https://saucelabs.com/open_sauce/user/Havunen)
 
 
-## Migration guides
+## Manual guides
 
-- [Inferno v4](https://github.com/infernojs/inferno/blob/master/documentation/v4-migration.md)
+- [To run, you must already have the node-js installed](https://nodejs.org/en/)
 - [Inferno v6](https://github.com/infernojs/inferno/blob/master/documentation/v6-migration.md)
-
-## Benchmarks
-
-Live examples at [https://infernojs.github.io/inferno](https://infernojs.github.io/inferno)
-
-- [UI Bench](https://localvoid.github.io/uibench/)
-- [dbmonster](https://raw.githack.com/infernojs/inferno/master/docs/dbmonster/index.html)
-- [JS Web Frameworks Benchmark (current)](https://krausest.github.io/js-framework-benchmark/current.html)
-- [Isomorphic-UI-Benchmark](https://github.com/marko-js/isomorphic-ui-benchmarks)
-- [1k Components](https://raw.githack.com/infernojs/inferno/master/docs/1kcomponents/index.html)
 
 ## Code Example
 
@@ -151,15 +141,6 @@ render(
 ```
 
 
-### More Examples
-
-If you have built something using Inferno you can add them here:
-
-- [**Simple Clock** (@JSFiddle)](https://jsfiddle.net/2nm1kqct/)
-- [**Simple JS Counter** (@github/scorsi)](https://github.com/scorsi/simple-counter-inferno-cerebral-fusebox): SSR Inferno (view) + Cerebral (state manager) + FuseBox (build system/bundler)
-- [**Online interface to TMDb movie database** (@codesandbox.io)](https://codesandbox.io/s/9zjo5yx8po): Inferno + [Inferno hyperscript](https://github.com/infernojs/inferno) (view) + [Superagent](https://github.com/visionmedia/superagent) (network requests) + Web component ([custom elements v1](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements)) + [state-transducer](https://github.com/brucou/state-transducer)
-  (state machine library)
-- [**Lemmy - a self-hostable reddit alternative** (front end in Inferno)](https://github.com/dessalines/lemmy)
 
 ## Getting Started
 
