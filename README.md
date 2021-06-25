@@ -62,58 +62,33 @@ const {app, BrowserWindow} = require('electron');
 let win;
 ```
 
-Because performance is an important aspect of this library, we want to show you how to optimize your application even further.
-In the example below we optimize diffing process by using JSX **$HasVNodeChildren** to predefine children shape compile time.
-Then we create text vNode using `createTextVNode`. All child flags are documented [here](https://infernojs.org/docs/guides/optimizations).
+After that, we create a wrapper for our program with a width and a length createWindow () function that loads index.html into a new BrowserWindow instance
 
 ```jsx
-import { createTextVNode, render, Component } from 'inferno';
+function createWindow() {
+  win = new BrowserWindow({
+    width: 500,
+    height: 850
+  });
 
-class MyComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      counter: 0
-    };
-  }
-  render() {
-    return (
-      <div>
-        <h1>Header!</h1>
-        <span $HasVNodeChildren>{createTextVNode('Counter is at: ' + this.state.counter)}</span>
-      </div>
-    );
-  }
+  win.loadURL(url);
+
+  win.on('closed', function() {
+    win = null;
+  });
 }
-
-render(
-  <MyComponent />,
-  document.getElementById("app")
-);
 ```
 
-### Tear down
+On Windows and Linux, exiting all windows will usually close the application completely.
 
-To tear down inferno application you need to render null on root element.
-Rendering `null` will trigger unmount lifecycle hooks for whole vDOM tree and remove global event listeners.
-It is important to unmount unused vNode trees to free browser memory.
+To do this, listen for the app module's `'window-all-closed'` event and call `[app.quit ()] [app-quit]` if the user is not using macOS (darwin).
 
 ```jsx
-import { createTextVNode, render, Component } from 'inferno';
+app.on('ready', createWindow);
 
-const rootElement = document.getElementById("app");
-
-// Start the application
-render(
-  <ExampleComponent/>,
-  rootElement
-);
-
-// Tear down
-render(
-  null,
-  rootElement
-);
+app.on('window-all-closed', function(){
+  app.quit();
+})
 
 ```
 
@@ -121,15 +96,6 @@ render(
 
 ## Getting Started
 
-The easiest way to get started with Inferno is by using [Create Inferno App](https://github.com/infernojs/create-inferno-app).
-
-Alternatively, you can try any of the following:
-* the [Inferno Boilerplate](https://github.com/infernojs/inferno-boilerplate) for a very simple setup.
-* for a more advanced example demonstrating how Inferno might be used, we recommend trying out [Inferno Starter Project](https://github.com/nightwolfz/inferno-starter) by [nightwolfz](https://github.com/nightwolfz/).
-* for using Inferno to build a mobile app, try [Inferno Mobile Starter Project](https://github.com/Rudy-Zidan/inferno-mobile) by [Rudy-Zidan](https://github.com/Rudy-Zidan).
-* for [TypeScript](https://www.typescriptlang.org/) support and bundling, check out [ts-transform-inferno](https://github.com/deamme/ts-transform-inferno), or [inferno-typescript-example](https://github.com/infernojs/inferno-typescript-example).
-* for an example of how to use Inferno in [codesandbox](https://codesandbox.io/): https://codesandbox.io/s/znmyj24w4p
-* for using [parcel and typescript](https://github.com/jayy-lmao/inferno-parcel-ts)
 
 Core package:
 
