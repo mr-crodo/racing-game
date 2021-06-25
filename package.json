@@ -1,0 +1,25 @@
+{
+  "name": "racing-game",
+  "version": "1.0.0",
+  "description": "This is a racing game for Windows, written in pure JS, converted into an application with Electron js",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-crodo/racing-game.git"
+  },
+  "author": "Nasib Mammadov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-crodo/racing-game/issues"
+  },
+  "homepage": "https://github.com/mr-crodo/racing-game#readme",
+  "devDependencies": {
+    "electron": "^13.1.4",
+    "electron-packager": "^15.2.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
