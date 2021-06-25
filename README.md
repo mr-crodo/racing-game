@@ -9,7 +9,7 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 </td></tr></table>
 
-<p align="center"><a href="https://infernojs.org/" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/promo.jpg"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/promo.jpg"></p>
 
 [![npm](https://img.shields.io/badge/node--js-14.71LTS%3C-green?style=for-the-badge&?style=for-the-badge&logo=npm)](https://nodejs.org/en/)
 [![Electron](https://img.shields.io/badge/Electron-13.1%3C-blue?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
@@ -100,57 +100,24 @@ app.on('window-all-closed', function(){
 Core package:
 
 ```sh
-npm install --save inferno
+npm install 
 ```
 
-Addons:
+To run the program:
 
 ```sh
-# server-side rendering
-npm install --save inferno-server
-# routing
-npm install --save inferno-router
+# to run from terminal
+npm start
 ```
 
-Pre-bundled files for browser consumption can be found on [our cdnjs](https://cdnjs.com/libraries/inferno):
-
-Or on jsDelivr:
+To create a folder with a Windows `racing-game-win32-x64` application with an `.exe` extension, enter the following command :
 
 ```
-https://cdn.jsdelivr.net/npm/inferno@latest/dist/inferno.min.js
+electron-packager .
 ```
 
-Or on unpkg.com:
 
-```
-https://unpkg.com/inferno@latest/dist/inferno.min.js
-```
-
-### Creating Virtual DOM
-
-#### JSX:
-```sh
-npm install --save-dev babel-plugin-inferno
-```
-
-#### Hyperscript:
-```sh
-npm install --save inferno-hyperscript
-```
-
-#### createElement:
-```sh
-npm install --save inferno-create-element
-```
-
-### Compatibility with existing React apps
-```sh
-npm install --save-dev inferno-compat
-```
-
-Note: Make sure you read more about [`inferno-compat`](https://github.com/infernojs/inferno/tree/master/packages/inferno-compat) before using it.
-
-## Third-party state libraries
+## Game screenshots
 
 Inferno now has bindings available for some of the major state management libraries out there:
 
