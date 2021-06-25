@@ -3,7 +3,6 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 # [![Instagramm](https://img.shields.io/badge/mr--crodo-developer-success?style=for-the-badge&logo=instagram)](https://www.instagram.com/mr.crodo/)
 # [![Linkedin](https://img.shields.io/badge/mr--crodo-developer-success?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mr-crodo/)
 # [![Telegram](https://img.shields.io/badge/mr--crodo-developer-success?style=for-the-badge&logo=telegram)](https://t.me/mr_crodo)
-# mr-crodo.github.io
 
 **This repository is a full-fledged little game in the form of a desktop application.**
 
@@ -25,9 +24,9 @@ Electron is a framework for building desktop applications using JavaScript, HTML
 
 The main goal of the project was to make a game out of html, css and native js that would **easily run** on desktops.
 
-- Inferno's own [JSX plugin](https://github.com/infernojs/babel-plugin-inferno) creates monomorphic `createVNode` calls, instead of `createElement`
-- Inferno's diff process uses bitwise flags to memoize the shape of objects
-- Child nodes are normalized only when needed
+- The game is realized in `2D`.
+- All the necessary photographs of the cars are already in the folder with `images` in `png` format.
+- There is also music that runs along with the game, which is located in the `audio` folder
 - Special JSX flags can be used during compile time to optimize runtime performance at application level
 - Many micro optimizations
 
