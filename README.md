@@ -135,7 +135,7 @@ electron-packager .
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/inferno#sponsor)]
 
-<a href="#" target="_blank"><img width="50px" src="./assets/home.jpg"></a>
+<a href="#" target="_blank"><img width="100px" src="./assets/home.jpg"></a>
 <a href="https://www.jetbrains.com/ru-ru/" width="50px" target="_blank"><img src="./assets/jb.jpg"></a>
 <a href="#" target="_blank"><img width="50px" src="./assets/k1.png"></a>
 <a href="https://www.dell.ru/" target="_blank"><img width="50px" src="./assets/not.jpg"></a>
