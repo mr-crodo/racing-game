@@ -120,13 +120,13 @@ electron-packager .
 
 ## Game screenshots
 
-<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/1.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" max-width="400px" alt="Racing Game" title="Racing Game" src="./assets/1.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/2.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" max-width="400px" alt="Racing Game" title="Racing Game" src="./assets/2.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/2-1.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" max-width="400px" alt="Racing Game" title="Racing Game" src="./assets/2-1.png"></p>
 
-<p align="center"><a href="#" target="_blank"><img width="100%" alt="Racing Game" title="Racing Game" src="./assets/3.png"></p>
+<p align="center"><a href="#" target="_blank"><img width="100%" max-width="400px" alt="Racing Game" title="Racing Game" src="./assets/3.png"></p>
 
 
 
