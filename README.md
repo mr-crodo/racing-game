@@ -14,7 +14,8 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 [![npm](https://img.shields.io/badge/node--js-14.71LTS%3C-green?style=for-the-badge&?style=for-the-badge&logo=npm)](https://nodejs.org/en/)
 [![Electron](https://img.shields.io/badge/Electron-13.1%3C-blue?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
-[![MIT](https://img.shields.io/npm/l/inferno.svg?style=flat-square)](https://github.com/infernojs/inferno/blob/master/LICENSE.md)
+[![Electron-packager](https://img.shields.io/badge/Electron-packager-blue?style=for-the-badge&logo=electron
+)](https://github.com/electron/electron-packager)
 [![NPM](https://img.shields.io/npm/v/inferno.svg?style=flat-square)](https://www.npmjs.com/package/inferno)
 [![npm downloads](https://img.shields.io/npm/dm/inferno.svg?style=flat-square)](https://www.npmjs.org/package/inferno)
 [![Slack Status](https://inferno-slack.herokuapp.com/badge.svg)](https://inferno-slack.herokuapp.com/)
