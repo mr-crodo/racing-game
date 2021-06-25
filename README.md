@@ -14,9 +14,9 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 [![npm](https://img.shields.io/badge/node--js-14.71LTS%3C-green?style=for-the-badge&?style=for-the-badge&logo=npm)](https://nodejs.org/en/)
 [![Electron](https://img.shields.io/badge/Electron-13.1%3C-blue?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
-[![Electron-packager](https://img.shields.io/badge/Electron-packager-blue?style=for-the-badge&logo=electron
-)](https://github.com/electron/electron-packager)
-[![NPM](https://img.shields.io/npm/v/inferno.svg?style=flat-square)](https://www.npmjs.com/package/inferno)
+
+[![Electron-packager](https://img.shields.io/badge/Electron-packager-blue?style=for-the-badge&logo=electron)](https://github.com/electron/electron-packager)
+[![PATH](https://img.shields.io/badge/node-URL-lightgrey?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/url)
 [![npm downloads](https://img.shields.io/npm/dm/inferno.svg?style=flat-square)](https://www.npmjs.org/package/inferno)
 [![Slack Status](https://inferno-slack.herokuapp.com/badge.svg)](https://inferno-slack.herokuapp.com/)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/inferno/dist/inferno.min.js?compression=gzip)](https://unpkg.com/inferno/dist/inferno.min.js)
