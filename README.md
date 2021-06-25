@@ -10,9 +10,9 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 </td></tr></table>
 
-<p align="center"><a href="https://infernojs.org/" target="_blank"><img width="150" alt="Inferno" title="Inferno" src="./assets/promo.jpg"></p>
+<p align="center"><a href="https://infernojs.org/" target="_blank"><img width="200" alt="Racing Game" title="Racing Game" src="./assets/promo.jpg"></p>
 
-[![Build Status](https://img.shields.io/travis/infernojs/inferno/master.svg?style=flat-square)](https://travis-ci.org/infernojs/inferno/branches)
+[![Build Status]https://img.shields.io/badge/node--js-14.71LTS-green?style=for-the-badge&logo=appveyor](https://nodejs.org/en/)
 [![Coverage Status](https://img.shields.io/coveralls/infernojs/inferno/master.svg?style=flat-square)](https://coveralls.io/github/infernojs/inferno?branch=master)
 [![MIT](https://img.shields.io/npm/l/inferno.svg?style=flat-square)](https://github.com/infernojs/inferno/blob/master/LICENSE.md)
 [![NPM](https://img.shields.io/npm/v/inferno.svg?style=flat-square)](https://www.npmjs.com/package/inferno)
