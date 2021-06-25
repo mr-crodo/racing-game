@@ -38,51 +38,28 @@ The main goal of the project was to make a game out of html, css and native js t
 ## Manual guides
 
 - [To run, you must already have the node-js installed](https://nodejs.org/en/)
-- [Inferno v6](https://github.com/infernojs/inferno/blob/master/documentation/v6-migration.md)
+- [Also install ElectronJS](https://www.electronjs.org/)
 
 ## Code Example
 
-Let's start with some code. As you can see, Inferno intentionally keeps the same design ideas as React regarding components: one-way data flow and separation of concerns.
+To operate Electron, you need to create a JS file with a name different from the main program code
 
-In these examples, JSX is used via the [Inferno JSX Babel Plugin](https://github.com/infernojs/babel-plugin-inferno) to provide a simple way to express Inferno virtual DOM. You do not need to use JSX, it's completely **optional**, you can use [hyperscript](https://github.com/infernojs/inferno/tree/master/packages/inferno-hyperscript) or [createElement](https://github.com/infernojs/inferno/tree/master/packages/inferno-create-element) (like React does).
-Keep in mind that compile time optimizations are available only for JSX.
+And write down the next set of commands:
 
 ```jsx
-import { render } from 'inferno';
+const url = require('url').format({
+  protocol: 'file',
+  slashes: true,
+  pathname: require('path').join(__dirname, 'index.html')
+});
 
-const message = "Hello world";
-
-render(
-  <MyComponent message={ message } />,
-  document.getElementById("app")
-);
 ```
-Furthermore, Inferno also uses ES6 components like React:
+Initialize Electron JS, And create a win object:
 
 ```jsx
-import { render, Component } from 'inferno';
-const qaqa = "qadan Alem"
-class MyComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      counter: 0
-    };
-  }
-  render() {
-    return (
-      <div>
-        <h1>Header!</h1>
-        <span>Counter is at: { this.state.counter }</span>
-      </div>
-    );
-  }
-}
+const {app, BrowserWindow} = require('electron');
 
-render(
-  <MyComponent />,
-  document.getElementById("app")
-);
+let win;
 ```
 
 Because performance is an important aspect of this library, we want to show you how to optimize your application even further.
