@@ -5,7 +5,7 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 # [![Telegram](https://img.shields.io/badge/mr--crodo-developer-success?style=for-the-badge&logo=telegram)](https://t.me/mr_crodo)
 # mr-crodo.github.io
 
-**This repository is an assembly of static sites using different frontend technologies.**
+**This repository is a full-fledged little game in the form of a desktop application.**
 
 
 </td></tr></table>
@@ -17,19 +17,13 @@ This is a racing game for Windows, written in pure JS, converted into an applica
 
 [![Electron-packager](https://img.shields.io/badge/Electron-packager-blue?style=for-the-badge&logo=electron)](https://github.com/electron/electron-packager)
 [![PATH](https://img.shields.io/badge/node-URL-lightgrey?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/url)
-[![npm downloads](https://img.shields.io/npm/dm/inferno.svg?style=flat-square)](https://www.npmjs.org/package/inferno)
-[![Slack Status](https://inferno-slack.herokuapp.com/badge.svg)](https://inferno-slack.herokuapp.com/)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/inferno/dist/inferno.min.js?compression=gzip)](https://unpkg.com/inferno/dist/inferno.min.js)
-[![Backers on Open Collective](https://opencollective.com/inferno/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/inferno/sponsors/badge.svg)](#sponsors)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
-Inferno is an insanely fast, React-like library for building high-performance user interfaces on both the client and server.
+
+Electron is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux — no native development experience required..
 
 ## Description
 
-The main objective of the InfernoJS project is to provide the fastest possible **runtime** performance for web applications. Inferno excels at rendering real time data views or large DOM trees.
-
-The performance is achieved through multiple optimizations, for example:
+The main goal of the project was to make a game out of html, css and native js that would **easily run** on desktops.
 
 - Inferno's own [JSX plugin](https://github.com/infernojs/babel-plugin-inferno) creates monomorphic `createVNode` calls, instead of `createElement`
 - Inferno's diff process uses bitwise flags to memoize the shape of objects
@@ -37,27 +31,7 @@ The performance is achieved through multiple optimizations, for example:
 - Special JSX flags can be used during compile time to optimize runtime performance at application level
 - Many micro optimizations
 
-## Features
-
-- Component driven + one-way data flow architecture
-- React-like API, concepts and component lifecycle events
-- Partial synthetic event system, normalizing events for better cross browser support
-- Inferno's [`linkEvent`](https://github.com/infernojs/inferno/blob/master/README.md#linkevent-package-inferno) feature removes the need to use arrow functions or binding event callbacks
-- Isomorphic rendering on both client and server with `inferno-server`
-- Unlike React and Preact, Inferno has lifecycle events on functional components
-- Unlike Preact and other React-like libraries, Inferno has controlled components for input/select/textarea elements
-- Components can be rendered outside their current html hierarchy using `createPortal` - API
-- Support for [older browsers](https://github.com/infernojs/inferno#browser-support) without any polyfills
-- defaultHooks for Functional components, this way re-defining lifecycle events per usage can be avoided
-- Inferno supports setting styles using string `<div style="background-color: red"></div>` or using object literal syntax `<div style={{"background-color": "red"}}></div>`. For camelCase syntax support see [`inferno-compat`](https://github.com/infernojs/inferno/tree/master/packages/inferno-compat).
-- Fragments (v6)
-- createRef and forwardRef APIs (v6)
-
 ## Browser support
-Since version 4 we have started running our test suite **without** any polyfills.
-Inferno is now part of [Saucelabs](https://saucelabs.com/) open source program and we use their service for executing the tests.
-
-InfernoJS natively supports the browsers listed below.
 
 [![Build Status](https://saucelabs.com/browser-matrix/Havunen.svg)](https://saucelabs.com/open_sauce/user/Havunen)
 
