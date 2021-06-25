@@ -110,9 +110,10 @@ To run the program:
 npm start
 ```
 
-To create a folder with a Windows `racing-game-win32-x64` application with an `.exe` extension, enter the following command :
+To create a folder with a Windows application with an `.exe` extension, enter the following command :
 
-```
+```sh
+# Creates a folder with a name `racing-game-win32-x64`
 electron-packager .
 ```
 
