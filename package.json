@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/mr-crodo/racing-game#readme",
   "devDependencies": {
-    "electron": "^13.1.4",
-    "electron-packager": "^15.2.0",
+    "electron": "^24.1.2",
+    "electron-packager": "^17.1.1",
     "path": "^0.12.7",
     "url": "^0.11.0"
   }
